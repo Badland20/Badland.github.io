@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon site mobile</title>
+</head>
+<body>
+  <h1>Alpha !</h1>
+  <p>nouveau site</p>
+  <button onclick="changerTexte()">Clique ici</button>
+  <p id="message">Aucun clic encore...</p>
+  <p>© 2025 - Alpha</p>
+
+  <script>
+    function changerTexte() {
+      document.getElementById("message").textContent = "Tu as cliqué ! 🎉";
+    }
+  </script>
+</body>
+</html>
